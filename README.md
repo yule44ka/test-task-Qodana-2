@@ -1,6 +1,4 @@
-# test-task-Qodana-2
-
-## Code Analyzer
+# Code Analyzer
 ### How to run:
 1) Run **CodeAnalyzer.java** (*src/main/java/org/CodeAnalyzer.java*).
 2) Write the absolute path to the directory you want to analyze.
