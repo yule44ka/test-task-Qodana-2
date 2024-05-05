@@ -1,4 +1,4 @@
-package test.java.org
+package org.example.directory
 
 fun myFunction() {
     println("This is a function in Kotlin.")

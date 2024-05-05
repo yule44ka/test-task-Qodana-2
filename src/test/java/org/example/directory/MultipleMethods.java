@@ -1,4 +1,4 @@
-package test.java.org.directory;
+package org.example.directory;
 
 public class MultipleMethods {
     public void method1() {

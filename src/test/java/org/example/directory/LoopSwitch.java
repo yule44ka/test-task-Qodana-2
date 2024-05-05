@@ -1,4 +1,4 @@
-package test.java.org.directory;
+package org.example.directory;
 
 public class LoopSwitch {
     public void loop_method(int[] array) {

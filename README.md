@@ -1,8 +1,8 @@
 # Code Analyzer
 ### How to run:
-1) Run **CodeAnalyzer.java** (*src/main/java/org/CodeAnalyzer.java*).
+1) Run **CodeAnalyzer.java** (*src/main/java/org/example/CodeAnalyzer.java*).
 2) Write the absolute path to the directory you want to analyze in the standart input.
-   I prepared a directory that can be used for testing, it is located in *src/test/java/org*:
+   I prepared a directory that can be used for testing, it is located in *src/test/java/org/example*:
    - *directory* - directory with Java and Kotlin files 
    You can also test on the empty directory, it will work correctly.
 ### Description:

@@ -1,4 +1,4 @@
-package test.java.org
+package org.example.directory
 
 class MyNewClass {
     fun my_Method() {

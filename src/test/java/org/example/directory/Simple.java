@@ -1,4 +1,4 @@
-package test.java.org.directory;
+package org.example.directory;
 
 class Simple {
 //    public void count_Me()
