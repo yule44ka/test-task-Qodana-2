@@ -63,10 +63,10 @@ public class CodeAnalyzer {
    */
   private static void printTopComplexMethods() {
     if (complexityMap.isEmpty()){
-      System.out.println("No methods were found in the directory.");
+      System.out.println("\nNo methods were found in the directory.");
     }
     else {
-      System.out.println("Top 3 most complex methods/functions in the directory:");
+      System.out.println("\nTop 3 most complex methods/functions in the directory:");
       complexityMap.entrySet().stream()
           .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
           .limit(3)
