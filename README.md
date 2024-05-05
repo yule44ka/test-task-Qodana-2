@@ -14,8 +14,13 @@ Specify the absolute path to the directory you want to analyze:
 <path>
 
 Top 3 most complex methods/functions in the directory:
+
+
 Method: method1, File: in what file method1 is located, Complexity: complexity of method1
+
 Method: method2, File:  in what file method2 is located, Complexity: complexity of method2
+
 Method: method3, File:  in what file method3 is located, Complexity: complexity of method3
+
 
 Percentage of methods not adhering to naming convention: percent%
