@@ -11,7 +11,8 @@
 3) **JavaFileProcessor** and **KotlinFileProcessor** - classes that implement the *FileProcessor* interface for Java and Kotlin files accordingly. They contains methods to extract name of methods or functions, check camelCase codestyle and count number of the conditional statements for each method and function.
 ### Output:
 Specify the absolute path to the directory you want to analyze:
-<path>
+
+path
 
 Top 3 most complex methods/functions in the directory:
 
