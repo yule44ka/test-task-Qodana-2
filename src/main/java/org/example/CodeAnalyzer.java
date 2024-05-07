@@ -37,8 +37,8 @@ public class CodeAnalyzer {
       throw new IllegalArgumentException("Invalid directory path");
     }
 
-    processFiles(directory, ".java", new UniversalProcessor());
-    processFiles(directory, ".kt", new UniversalProcessor());
+    processFiles(directory, ".java", new UniversalFileProcessor());
+    processFiles(directory, ".kt", new UniversalFileProcessor());
 
     printTopComplexMethods();
     printNonConformingPercentage();

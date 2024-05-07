@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 /**
  * Implementation of the FileProcessor interface that processes Java and Kotlin files for code analysis.
  */
-public class UniversalProcessor implements FileProcessor {
+public class UniversalFileProcessor implements FileProcessor {
 
   private static final Pattern JAVA_METHOD_DECLARATION_PATTERN = Pattern.compile("(private|protected|public)\\s+(\\w+)\\s+(\\w+)\\s*\\(.*\\)\\s*\\{");
   private static final Pattern KOTLIN_METHOD_DECLARATION_PATTERN = Pattern.compile("fun\\s+(\\w+)\\s*\\(.*\\)\\s*\\{");
