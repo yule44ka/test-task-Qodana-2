@@ -7,5 +7,5 @@
    You can also test on the empty directory, it will work correctly.
 ### Description:
 1) **CodeAnalyzer** - a class that is responsible for analyzing Java and Kotlin files and outputting analysis results.
-2) *FileProcessor* - an interface that defines the contract for processing files. Classes implementing this interface are responsible for defining the behavior for processing different types of files: Java and Kotlin files.
-3) **JavaFileProcessor** and **KotlinFileProcessor** - classes that implement the *FileProcessor* interface for Java and Kotlin files accordingly. They contains methods to extract name of methods or functions, check camelCase codestyle and count number of the conditional statements for each method and function.
+2) *FileProcessor* - an interface that defines the contract for processing files. The class implementing this interface is responsible for defining the behavior for processing different types of files: Java and Kotlin files.
+3) **UniversalProcessor** - class that implements the *FileProcessor* interface for Java and Kotlin files. It checks camelCase codestyle and count number of the conditional statements for each method and function.
