@@ -1,6 +1,6 @@
 # Code Analyzer
 
-### I made some changes to the code to make it more clear and remove duplicates, implementing Universal Code Parser. You can see it in the [universal-parser](https://github.com/yule44ka/test-task-Qodana-2/tree/universal-parser) branch.
+### I made some changes to the code to make it more clear and remove duplicates, implementing Universal Code Parser. You can see it at the [universal-parser](https://github.com/yule44ka/test-task-Qodana-2/tree/universal-parser) branch.
 
 ### How to run:
 1) Run **CodeAnalyzer.java** (*src/main/java/org/example/CodeAnalyzer.java*).
