@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  */
 public class UniversalFileProcessor implements FileProcessor {
 
-  private static final Pattern JAVA_METHOD_DECLARATION_PATTERN = Pattern.compile("(private|protected|public)\\s+(\\w+)\\s+(\\w+)\\s*\\(.*\\)\\s*\\{");
+  private static final Pattern JAVA_METHOD_DECLARATION_PATTERN = Pattern.compile("(private|protected|public)\\s+(static\\s+)?(\\S+)\\s+(\\w+)\\s*\\(.*\\)\\s*\\{");
   private static final Pattern KOTLIN_METHOD_DECLARATION_PATTERN = Pattern.compile("fun\\s+(\\w+)\\s*\\(.*\\)\\s*\\{");
 
   /**
@@ -56,7 +56,7 @@ public class UniversalFileProcessor implements FileProcessor {
 
         if (methodDeclarationMatcher.matches()) {
           methodName = type.equals("Java") ?
-              methodDeclarationMatcher.group(3) : methodDeclarationMatcher.group(1);
+              methodDeclarationMatcher.group(4) : methodDeclarationMatcher.group(1);
           if (methodName != null) {
             methodProcessing = true;
             CodeAnalyzer.totalMethods++;
